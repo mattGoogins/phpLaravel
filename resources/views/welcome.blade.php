@@ -84,7 +84,7 @@
                     <a href="https://laravel.com/docs">Services</a>
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
-                    <a href="{{ url('/windward') }}">About Us</a>
+                    <a href="{{ url('/windward') }}">About</a>
                 </div>
             </div>
         </div>

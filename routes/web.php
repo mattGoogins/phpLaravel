@@ -12,6 +12,28 @@
 */
 
 Route::get('/', function () {
+
+    // create an 'art' table
+    // Schema::create('art', function($newtable)
+    // {
+    //   $newtable->increments('id');
+    //   $newtable->string('artist');
+    //   $newtable->string('title', 500);
+    //   $newtable->text('description');
+    //   $newtable->date('created');
+    //   $newtable->date('exhibition_date');
+    //   // timestamps function creates "created_at" and "updated_at" columns
+    //   $newtable->timestamps();
+    // });
+
+    // add a 'alumni column to the 'art' table
+    // remove the 'exhibition_date' column from the 'art' table
+    // Schema::table('art', function($newtable)
+    // {
+    //     $newtable->boolean('alumni');
+    //     $newtable->dropColumn('exhibition_date');
+    // });
+
     return view('welcome');
 });
 
@@ -25,7 +47,16 @@ Route::get('windward', function () {
 // to try it, go to http://localhost/about
 // FYI, the /about route is same as about route, it just explicitly states the root /
 Route::get('about', function () {
-    return 'Hello world!';
+    // return 'Hello world!';
+    return view('about');
+});
+
+Route::get('services', function () {
+    return view('services');
+});
+
+Route::get('news', function () {
+    return view('news');
 });
 
 // initial "about us/directions" Route... to a simple path route off the root of the web

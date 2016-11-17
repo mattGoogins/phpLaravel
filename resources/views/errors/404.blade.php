@@ -48,7 +48,7 @@
             }
 
             .title {
-                font-size: 48px;
+                font-size: 84px;
             }
 
             .links > a {
@@ -76,18 +76,9 @@
             @endif
 
             <div class="content">
-              <!-- include the common title content -->
-              @include('title')
-
-                <div>
-                    <p>We're a software engineering and management practice based in Minneapolis, Minnesota.</p>
-                    <p>Thank you for your interest.</p>
-                    </br>
+                <div class="title m-b-md">
+                    Oops! 404
                 </div>
-
-                <!-- include the common navigation -->
-                @include('navigation')
-
             </div>
         </div>
     </body>

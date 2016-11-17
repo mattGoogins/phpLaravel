@@ -79,14 +79,14 @@
               <!-- include the common title content -->
               @include('title')
 
-                <div>
-                    <p>We're a software engineering and management practice based in Minneapolis, Minnesota.</p>
-                    <p>Thank you for your interest.</p>
-                    </br>
-                </div>
+              <div>
+                <p>We do stuff. Like product management, software engineering and consulting.</p>
+                <p>We're also runners and love to ride our bikes.</p>
+                </br>
+              </div>
 
-                <!-- include the common navigation -->
-                @include('navigation')
+              <!-- include the common navigation content -->
+              @include('navigation')
 
             </div>
         </div>

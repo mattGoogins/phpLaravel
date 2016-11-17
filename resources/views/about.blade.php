@@ -80,8 +80,8 @@
               @include('title')
 
                 <div>
-                    <p>We're a software engineering and management practice based in Minneapolis, Minnesota.</p>
-                    <p>Thank you for your interest.</p>
+                    <p>We're good people.</p>
+                    <p>Like Patty, and (mostly) Matt.</p>
                     </br>
                 </div>
 

@@ -77,11 +77,11 @@
 
             <div class="content">
               <!-- include the common title content -->
-              @include('title')
+                @include('title')
 
                 <div>
-                    <p>We're a software engineering and management practice based in Minneapolis, Minnesota.</p>
-                    <p>Thank you for your interest.</p>
+                    <p>There's a ton of stuff to tell you about.</p>
+                    <p>Let's meet for coffee and discuss. The internet is not great for true sharing.</p>
                     </br>
                 </div>
 

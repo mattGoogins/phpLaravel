@@ -18,16 +18,15 @@
       @include('title')
 
       <div>
-        <p>We're a software engineering and management practice based in Minneapolis.</p>
-        <p>Thank you for your interest.</p>
+        <p>We'd love to hear from you.</p>
+        <p><a href="mailto:matt.googins@gmail.com?subject=Windward%20Software%20and%20Consulting" class="contactlink">Send us an eMail</a>, or give us a call at <a href="tel:1-612-209-6199"  class="contactlink">(612) 209-6199</a>.</p>
       </br>
+      </div>
+
+      <!-- include the common navigation content -->
+      @include('navigation')
     </div>
 
-    <!-- include the common navigation -->
-    @include('navigation')
-
   </div>
-
-</div>
 </body>
 </html>

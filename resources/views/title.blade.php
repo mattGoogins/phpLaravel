@@ -1,3 +1,4 @@
 <div class="title m-b-md">
-      <img src="<?php echo asset('images/windwardAppleTouch.png'); ?>" height="35px" width="35px" alt="Windward Software and Consulting"> Windward Software & Consulting
+      <a href="{{ url('/') }}"><img src="<?php echo asset('images/windwardAppleTouch.png'); ?>" class="titleImage" alt="Windward Software and Consulting"></a>
+      </br>Windward Software & Consulting
 </div>
